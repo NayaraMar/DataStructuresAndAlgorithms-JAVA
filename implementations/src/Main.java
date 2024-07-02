@@ -1,23 +1,18 @@
 import lists.ArrayList;
+import lists.LinkedList;
 import lists.MyList;
 
 public class Main {
 
     public static void main(String[] args) {
-        MyList count = new ArrayList();
+        MyList count = new LinkedList();
 
         count.add(1);
-        count.add(1);
-        count.add(1);
-        count.add(1);
-        count.add(7, 2);
-        count.add(10);
-        count.replace(3, 0);
-        count.remove(4);
+        count.add(2);
+        count.add(3);
+        count.add(4);
+        count.add(5);
+        count.add(77, 2);
 
-        int value = count.get(2);
-        int size = count.getSize();
-
-        System.out.println("value = " + value + " size: " +  size);
     }
 }
